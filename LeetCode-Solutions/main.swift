@@ -7,4 +7,8 @@
 
 import Foundation
 
+// LCProblemManager is the single entry point for testing solutions to the LeetCode problems
+let problemManager = LCProblemManager()
+problemManager.runProblemManager()
+
 

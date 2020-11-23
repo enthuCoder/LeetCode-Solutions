@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7B32497A256C6CF0001B4B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324979256C6CF0001B4B6C /* main.swift */; };
+		7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */; };
+		7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324997256C72A4001B4B6C /* LCProblemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		7B324976256C6CF0001B4B6C /* LeetCode-Solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Solutions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B324979256C6CF0001B4B6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089. Duplicate Zeros.swift"; sourceTree = "<group>"; };
+		7B324997256C72A4001B4B6C /* LCProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProblemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,138 @@
 			isa = PBXGroup;
 			children = (
 				7B324979256C6CF0001B4B6C /* main.swift */,
+				7B324997256C72A4001B4B6C /* LCProblemManager.swift */,
+				7B324986256C6EC7001B4B6C /* Binary Tree */,
+				7B324985256C6EBA001B4B6C /* Strings */,
+				7B324984256C6EAB001B4B6C /* Linked List */,
+				7B324982256C6E90001B4B6C /* Arrays */,
 			);
 			path = "LeetCode-Solutions";
+			sourceTree = "<group>";
+		};
+		7B324982256C6E90001B4B6C /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				7B324992256C6F96001B4B6C /* Hard */,
+				7B324991256C6F91001B4B6C /* Medium */,
+				7B324990256C6F8C001B4B6C /* Easy */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		7B324984256C6EAB001B4B6C /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				7B32498F256C6F84001B4B6C /* Hard */,
+				7B32498E256C6F7C001B4B6C /* Medium */,
+				7B32498D256C6F76001B4B6C /* Easy */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		7B324985256C6EBA001B4B6C /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				7B32498C256C6F6E001B4B6C /* Hard */,
+				7B32498B256C6F67001B4B6C /* Medium */,
+				7B32498A256C6F61001B4B6C /* Easy */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		7B324986256C6EC7001B4B6C /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				7B324989256C6F4D001B4B6C /* Hard */,
+				7B324988256C6F46001B4B6C /* Medium */,
+				7B324987256C6F3E001B4B6C /* Easy */,
+			);
+			path = "Binary Tree";
+			sourceTree = "<group>";
+		};
+		7B324987256C6F3E001B4B6C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		7B324988256C6F46001B4B6C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		7B324989256C6F4D001B4B6C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		7B32498A256C6F61001B4B6C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		7B32498B256C6F67001B4B6C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		7B32498C256C6F6E001B4B6C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		7B32498D256C6F76001B4B6C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		7B32498E256C6F7C001B4B6C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		7B32498F256C6F84001B4B6C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		7B324990256C6F8C001B4B6C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		7B324991256C6F91001B4B6C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		7B324992256C6F96001B4B6C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
 				7B32497A256C6CF0001B4B6C /* main.swift in Sources */,
+				7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

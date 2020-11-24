@@ -37,8 +37,18 @@ class Input_1089 {
     var input3 = [8,4,5,0,0,0,0,7]
     
     func executeInput() {
-        duplicateZeros(&input1)
-        print("Output: \(input1)")
+        print("1089. Duplicate Zeros")
+        print("- - - - - - - - - - - - - - ")
+        let input = [input1, input2, input3]
+        
+        // Test for various inputs
+        for currentInput in input {
+            var testInput = currentInput
+            print("INPUT: \(testInput)")
+            duplicateZeros(&testInput)
+            print("OUTPUT: \(testInput)\n")
+        }
+        print("- - - - - - - - - - - - - -\n")
     }
 }
 
@@ -102,7 +112,7 @@ extension Input_1089 {
             var last = arr.count - 1
             
             var index = 0 // Just for running the while loop
-            while (index <= last - dupZeros) {
+            while (index <= last - dupZeros) { // GIST OF THIS ALGO is this line of code
                 if arr[index] == 0 {
                     if index == last - dupZeros {
                         arr[last] = 0

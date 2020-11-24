@@ -37,17 +37,28 @@ class Input_1089 {
     var input3 = [8,4,5,0,0,0,0,7]
     
     func executeInput() {
-        duplicateZeros(&input3)
-        print("Output: \(input3)")
+        duplicateZeros(&input1)
+        print("Output: \(input1)")
     }
 }
 
 extension Input_1089 {
-        
+    
     func duplicateZeros(_ arr: inout [Int]) {
+        
+        // Using additional space (temporary array)
+        //duplicateZeros_additionalSpace(&arr)
+        
+        // Using in-place replacement
+        duplicateZeros_InPlace(&arr)
+        
+    }
+    
+    func duplicateZeros_additionalSpace(_ arr: inout [Int]) {
         if arr.count <= 1 {
             return
         } else {
+            // Temporary array for iterating over the input array
             let tempArray = arr
             
             // Index to track the index in input array, where the value might be replaced
@@ -77,6 +88,46 @@ extension Input_1089 {
                     }
                     currentIndex += 1
                 }
+            }
+        }
+    }
+    
+    
+    func duplicateZeros_InPlace(_ arr: inout [Int]) {
+        if arr.count <= 1 {
+            return
+        } else {
+            // Calculate the index after which elements in the original array will not be included
+            var dupZeros = 0
+            var last = arr.count - 1
+            
+            var index = 0 // Just for running the while loop
+            while (index <= last - dupZeros) {
+                if arr[index] == 0 {
+                    if index == last - dupZeros {
+                        arr[last] = 0
+                        last -= 1
+                        break
+                    }
+                    dupZeros += 1
+                }
+                index += 1
+            }
+
+            // Last index in the original array, beyond which, elements will not be included
+            var lastIndex = last - dupZeros
+            
+            // Iterate through the array in reverse order, to put the elements in correct places
+            while lastIndex >= 0 {
+                if arr[lastIndex] == 0 {
+                    arr[lastIndex + dupZeros] = 0
+                    dupZeros -= 1
+                    arr[lastIndex + dupZeros] = 0
+                } else {
+                    arr[lastIndex + dupZeros] = arr[lastIndex]
+                }
+                
+                lastIndex -= 1
             }
         }
     }

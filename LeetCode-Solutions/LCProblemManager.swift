@@ -14,6 +14,9 @@ struct LCProblemManager {
     func runProblemManager() {
         
         // 1089. Duplicate Zeros
-        Input_1089().executeInput()
+        //Input_1089().executeInput()
+        
+        // 1221. Split a String in Balanced Strings
+        Input_1221().executeInput()
     }
 }

@@ -10,6 +10,7 @@
 		7B32497A256C6CF0001B4B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324979256C6CF0001B4B6C /* main.swift */; };
 		7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */; };
 		7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324997256C72A4001B4B6C /* LCProblemManager.swift */; };
+		7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		7B324979256C6CF0001B4B6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089. Duplicate Zeros.swift"; sourceTree = "<group>"; };
 		7B324997256C72A4001B4B6C /* LCProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProblemManager.swift; sourceTree = "<group>"; };
+		7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1221. Split a String in Balanced Strings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		7B32498A256C6F61001B4B6C /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
 				7B32497A256C6CF0001B4B6C /* main.swift in Sources */,
 				7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */,

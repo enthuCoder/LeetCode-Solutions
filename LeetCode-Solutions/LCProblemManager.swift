@@ -17,6 +17,9 @@ struct LCProblemManager {
         //Input_1089().executeInput()
         
         // 1221. Split a String in Balanced Strings
-        Input_1221().executeInput()
+        // Input_1221().executeInput()
+        
+        // 94. Binary Tree Inorder Traversal
+        Input_94().executeInput()
     }
 }

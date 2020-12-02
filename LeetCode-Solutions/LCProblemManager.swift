@@ -23,10 +23,13 @@ struct LCProblemManager {
         //Input_94().executeInput()
         
         // 144. Binary Tree Preorder Traversal
-        Input_144().executeInput()
+        //Input_144().executeInput()
         
         // 145. Binary Tree Postorder Traversal
-        Input_145().executeInput()
+        //Input_145().executeInput()
+        
+        // 230. Kth Smallest Element in a BST
+        Input_230().executeInput()
         
     }
 }

@@ -10,6 +10,7 @@
 		7B32497A256C6CF0001B4B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324979256C6CF0001B4B6C /* main.swift */; };
 		7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */; };
 		7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324997256C72A4001B4B6C /* LCProblemManager.swift */; };
+		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */; };
 		7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */; };
 		7B8EA615256CDF0300F1F564 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA614256CDF0300F1F564 /* TreeNode.swift */; };
@@ -35,6 +36,7 @@
 		7B324979256C6CF0001B4B6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089. Duplicate Zeros.swift"; sourceTree = "<group>"; };
 		7B324997256C72A4001B4B6C /* LCProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProblemManager.swift; sourceTree = "<group>"; };
+		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1221. Split a String in Balanced Strings.swift"; sourceTree = "<group>"; };
 		7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
 		7B8EA614256CDF0300F1F564 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */,
 				7B8EA620256EF38800F1F564 /* 144. Binary Tree Preorder Traversal.swift */,
 				7B8EA61D256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift */,
+				7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				7B8EA618256CE3DA00F1F564 /* BinarySearchTree.swift in Sources */,
 				7B32497A256C6CF0001B4B6C /* main.swift in Sources */,
 				7B8EA621256EF38800F1F564 /* 144. Binary Tree Preorder Traversal.swift in Sources */,
+				7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */,
 				7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */,
 				7B8EA615256CDF0300F1F564 /* TreeNode.swift in Sources */,
 			);

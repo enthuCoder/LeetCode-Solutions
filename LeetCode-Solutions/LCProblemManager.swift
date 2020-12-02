@@ -29,7 +29,9 @@ struct LCProblemManager {
         //Input_145().executeInput()
         
         // 230. Kth Smallest Element in a BST
-        Input_230().executeInput()
+        //Input_230().executeInput()
         
+        // 285. Inorder Successor in BST
+        Input_285().executeInput()
     }
 }

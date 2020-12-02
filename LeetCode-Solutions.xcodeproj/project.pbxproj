@@ -136,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */,
-				7B8EA61D256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift */,
 				7B8EA620256EF38800F1F564 /* 144. Binary Tree Preorder Traversal.swift */,
+				7B8EA61D256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";

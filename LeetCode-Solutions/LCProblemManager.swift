@@ -20,6 +20,13 @@ struct LCProblemManager {
         // Input_1221().executeInput()
         
         // 94. Binary Tree Inorder Traversal
-        Input_94().executeInput()
+        //Input_94().executeInput()
+        
+        // 144. Binary Tree Preorder Traversal
+        Input_144().executeInput()
+        
+        // 145. Binary Tree Postorder Traversal
+        Input_145().executeInput()
+        
     }
 }

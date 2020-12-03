@@ -1,5 +1,5 @@
 //
-//  TernaryTreeNode.swift
+//  NAryTreeNode.swift
 //  LeetCode-Solutions
 //
 //  Created by Dilgir Siddiqui on 12/3/20.

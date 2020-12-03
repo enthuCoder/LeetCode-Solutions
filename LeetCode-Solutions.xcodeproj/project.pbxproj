@@ -15,7 +15,7 @@
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
 		7B7179982578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179972578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift */; };
 		7B71799C257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799B257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift */; };
-		7B7179A025790238003F7378 /* TernaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799F25790238003F7378 /* TernaryTreeNode.swift */; };
+		7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799F25790238003F7378 /* NAryTreeNode.swift */; };
 		7B7179A325790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179A225790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift */; };
 		7B7179A6257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */; };
 		7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */; };
@@ -48,7 +48,7 @@
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		7B7179972578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "637. Average of Levels in Binary Tree.swift"; sourceTree = "<group>"; };
 		7B71799B257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "429. N-ary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
-		7B71799F25790238003F7378 /* TernaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryTreeNode.swift; sourceTree = "<group>"; };
+		7B71799F25790238003F7378 /* NAryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryTreeNode.swift; sourceTree = "<group>"; };
 		7B7179A225790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "589. N-ary Tree Preorder Traversal.swift"; sourceTree = "<group>"; };
 		7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "590. N-ary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
 		7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1221. Split a String in Balanced Strings.swift"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				7B8EA614256CDF0300F1F564 /* TreeNode.swift */,
-				7B71799F25790238003F7378 /* TernaryTreeNode.swift */,
+				7B71799F25790238003F7378 /* NAryTreeNode.swift */,
 				7B324989256C6F4D001B4B6C /* Hard */,
 				7B324988256C6F46001B4B6C /* Medium */,
 				7B324987256C6F3E001B4B6C /* Easy */,
@@ -304,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B8EA61E256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift in Sources */,
-				7B7179A025790238003F7378 /* TernaryTreeNode.swift in Sources */,
+				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,

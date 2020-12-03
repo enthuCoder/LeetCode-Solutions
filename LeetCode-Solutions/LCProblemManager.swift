@@ -36,5 +36,18 @@ struct LCProblemManager {
         
         // 102. Binary Tree Level Order Traversal
         // Input_102().executeInput()
+        
+        // 637. Average of Levels in Binary Tree
+        // Input_637().executeInput()
+        
+        // 429. N-ary Tree Level Order Traversal
+        // Input_429().executeInput()
+
+        // 589. N-ary Tree Preorder Traversal
+        // Input_589().executeInput()
+
+        // 590. N-ary Tree Postorder Traversal
+        // Input_590().executeInput()
+
     }
 }

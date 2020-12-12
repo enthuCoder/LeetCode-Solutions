@@ -48,6 +48,13 @@ struct LCProblemManager {
 
         // 590. N-ary Tree Postorder Traversal
         // Input_590().executeInput()
+        
+        // TBD: This implementation is correct, but not efficient enough, it should be implemented using Max Heap
+        // 239. Sliding Window Maximum
+        //Input_239().executeInput()
+        
+        // 103. Binary Tree Zigzag Level Order Traversal
+        Input_103().executeInput()
 
     }
 }

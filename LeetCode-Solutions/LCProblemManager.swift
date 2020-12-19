@@ -58,5 +58,15 @@ struct LCProblemManager {
 
         // 314. Binary Tree Vertical Order Traversal
         //Input_314().executeInput()
+        
+        // 199. Binary Tree Right Side View
+        // Input_199().executeInput()
+        
+        // 545. Boundary of Binary Tree
+        // TBD with DFS, test case not passing with BFS
+        // Input_545().executeInput()
+        
+        // 112. Path Sum
+        Input_112().executeInput()
     }
 }

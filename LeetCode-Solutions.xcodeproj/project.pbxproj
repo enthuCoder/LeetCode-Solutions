@@ -10,6 +10,9 @@
 		7B32497A256C6CF0001B4B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324979256C6CF0001B4B6C /* main.swift */; };
 		7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */; };
 		7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324997256C72A4001B4B6C /* LCProblemManager.swift */; };
+		7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */; };
+		7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */; };
+		7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */; };
 		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */; };
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -20,6 +23,7 @@
 		7B7179A6257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */; };
 		7B7179AA2579F12C003F7378 /* 239. Sliding Window Maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179A92579F12C003F7378 /* 239. Sliding Window Maximum.swift */; };
 		7B7179AD25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179AC25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift */; };
+		7B7179B025855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179AF25855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift */; };
 		7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */; };
 		7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */; };
 		7B8EA615256CDF0300F1F564 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EA614256CDF0300F1F564 /* TreeNode.swift */; };
@@ -45,6 +49,9 @@
 		7B324979256C6CF0001B4B6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089. Duplicate Zeros.swift"; sourceTree = "<group>"; };
 		7B324997256C72A4001B4B6C /* LCProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProblemManager.swift; sourceTree = "<group>"; };
+		7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
+		7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
+		7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayaroundWithConcepts.swift; sourceTree = "<group>"; };
 		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "285. Inorder Successor in BST.swift"; sourceTree = "<group>"; };
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -55,6 +62,7 @@
 		7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "590. N-ary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
 		7B7179A92579F12C003F7378 /* 239. Sliding Window Maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. Sliding Window Maximum.swift"; sourceTree = "<group>"; };
 		7B7179AC25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "103. Binary Tree Zigzag Level Order Traversal.swift"; sourceTree = "<group>"; };
+		7B7179AF25855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "314. Binary Tree Vertical Order Traversal.swift"; sourceTree = "<group>"; };
 		7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1221. Split a String in Balanced Strings.swift"; sourceTree = "<group>"; };
 		7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
 		7B8EA614256CDF0300F1F564 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -77,6 +85,8 @@
 		7B32496D256C6CF0001B4B6C = {
 			isa = PBXGroup;
 			children = (
+				7B324979256C6CF0001B4B6C /* main.swift */,
+				7B680A57258DBF1A003D5472 /* Playaround With Concepts */,
 				7B324978256C6CF0001B4B6C /* LeetCode-Solutions */,
 				7B324977256C6CF0001B4B6C /* Products */,
 			);
@@ -93,7 +103,6 @@
 		7B324978256C6CF0001B4B6C /* LeetCode-Solutions */ = {
 			isa = PBXGroup;
 			children = (
-				7B324979256C6CF0001B4B6C /* main.swift */,
 				7B324997256C72A4001B4B6C /* LCProblemManager.swift */,
 				7B8EA61B256CE61900F1F564 /* Binary Search Tree */,
 				7B324986256C6EC7001B4B6C /* Binary Tree */,
@@ -149,6 +158,8 @@
 		7B324987256C6F3E001B4B6C /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */,
+				7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */,
 				7B7179972578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift */,
 				7B7179A225790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift */,
 				7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */,
@@ -166,6 +177,7 @@
 				7B8EA61D256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift */,
 				7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */,
 				7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */,
+				7B7179AF25855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift */,
 				7B71799B257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift */,
 			);
 			path = Medium;
@@ -244,6 +256,14 @@
 			path = Hard;
 			sourceTree = "<group>";
 		};
+		7B680A57258DBF1A003D5472 /* Playaround With Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */,
+			);
+			path = "Playaround With Concepts";
+			sourceTree = "<group>";
+		};
 		7B8EA61B256CE61900F1F564 /* Binary Search Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,14 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				7B8EA61E256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift in Sources */,
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
+				7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
 				7B7179A325790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift in Sources */,
 				7B7179A6257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift in Sources */,
+				7B7179B025855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift in Sources */,
 				7B71799C257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift in Sources */,
+				7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */,
 				7B8EA618256CE3DA00F1F564 /* BinarySearchTree.swift in Sources */,
 				7B7179AD25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift in Sources */,
 				7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */,

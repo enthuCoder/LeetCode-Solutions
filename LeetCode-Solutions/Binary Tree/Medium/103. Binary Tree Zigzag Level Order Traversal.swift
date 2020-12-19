@@ -65,6 +65,8 @@ class Input_103 {
         
         _ = testBST.printBinarySearchTree()
         
+        let result = zigzagLevelOrder(rootNode)
+        print(result)
     }
 }
 

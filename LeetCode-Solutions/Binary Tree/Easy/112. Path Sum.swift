@@ -33,7 +33,7 @@ class Input_112 {
     func executeInput() {
         let root = input1()
         
-        let result = hasPathSum(root, 22)
+        let result = hasPathSum_Itr(root, 22)
         print(result)
     }
     
@@ -64,6 +64,8 @@ class Input_112 {
 }
 
 extension Input_112 {
+    
+    // Using recursion
     func hasPathSum(_ root: TreeNode<Int>?, _ sum: Int) -> Bool {
         guard let rootNode = root else {
             return false
@@ -79,4 +81,35 @@ extension Input_112 {
     func isLeaf(_ node: TreeNode<Int>) -> Bool {
         return node.left == nil && node.right == nil
     }
+    
+    // Using Preorder traversal
+    func hasPathSum_Itr(_ root: TreeNode<Int>?, _ sum: Int) -> Bool {
+        guard let rootNode = root else {
+            return false
+        }
+        
+        if isLeaf(rootNode) && sum == rootNode.val {
+            return true
+        }
+        
+        var stack = [(TreeNode<Int>, Int)]()
+        stack.append((rootNode, sum))
+        
+        while !stack.isEmpty {
+            guard let newNode = stack.popLast() else {
+                return false
+            }
+            if isLeaf(newNode.0) && (newNode.1 - newNode.0.val == 0) {
+                return true
+            }
+            if newNode.0.right != nil {
+                stack.append((newNode.0.right!, newNode.1 - newNode.0.val))
+            }
+            if newNode.0.left != nil {
+                stack.append((newNode.0.left!, newNode.1 - newNode.0.val))
+            }
+        }
+        return false
+    }
+    
 }

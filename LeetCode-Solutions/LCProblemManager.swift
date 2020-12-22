@@ -67,6 +67,12 @@ struct LCProblemManager {
         // Input_545().executeInput()
         
         // 112. Path Sum
-        Input_112().executeInput()
+        // Input_112().executeInput()
+        
+        // 113. Path Sum II
+        // Input_113().executeInput()
+        
+        // 257. Binary Tree Paths
+        Input_257().executeInput()
     }
 }

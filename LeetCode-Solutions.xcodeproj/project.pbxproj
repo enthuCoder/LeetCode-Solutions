@@ -16,6 +16,8 @@
 		7B680A5C258DE621003D5472 /* 199. Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A5B258DE621003D5472 /* 199. Binary Tree Right Side View.swift */; };
 		7B680A5F258DE954003D5472 /* 545. Boundary of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A5E258DE954003D5472 /* 545. Boundary of Binary Tree.swift */; };
 		7B680A62258E1439003D5472 /* 112. Path Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A61258E1439003D5472 /* 112. Path Sum.swift */; };
+		7B680A652591569B003D5472 /* 113. Path Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A642591569B003D5472 /* 113. Path Sum II.swift */; };
+		7B680A682591A00D003D5472 /* 257. Binary Tree Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A672591A00D003D5472 /* 257. Binary Tree Paths.swift */; };
 		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */; };
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -58,6 +60,8 @@
 		7B680A5B258DE621003D5472 /* 199. Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199. Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
 		7B680A5E258DE954003D5472 /* 545. Boundary of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "545. Boundary of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A61258E1439003D5472 /* 112. Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112. Path Sum.swift"; sourceTree = "<group>"; };
+		7B680A642591569B003D5472 /* 113. Path Sum II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "113. Path Sum II.swift"; sourceTree = "<group>"; };
+		7B680A672591A00D003D5472 /* 257. Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257. Binary Tree Paths.swift"; sourceTree = "<group>"; };
 		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "285. Inorder Successor in BST.swift"; sourceTree = "<group>"; };
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */,
 				7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */,
 				7B680A61258E1439003D5472 /* 112. Path Sum.swift */,
+				7B680A672591A00D003D5472 /* 257. Binary Tree Paths.swift */,
 				7B7179972578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift */,
 				7B7179A225790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift */,
 				7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */,
@@ -180,6 +185,7 @@
 				7B8EA611256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift */,
 				7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */,
 				7B7179AC25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift */,
+				7B680A642591569B003D5472 /* 113. Path Sum II.swift */,
 				7B8EA620256EF38800F1F564 /* 144. Binary Tree Preorder Traversal.swift */,
 				7B8EA61D256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift */,
 				7B680A5B258DE621003D5472 /* 199. Binary Tree Right Side View.swift */,
@@ -342,6 +348,7 @@
 				7B8EA61E256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift in Sources */,
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
+				7B680A682591A00D003D5472 /* 257. Binary Tree Paths.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
 				7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
@@ -350,6 +357,7 @@
 				7B7179B025855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift in Sources */,
 				7B71799C257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift in Sources */,
 				7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */,
+				7B680A652591569B003D5472 /* 113. Path Sum II.swift in Sources */,
 				7B680A62258E1439003D5472 /* 112. Path Sum.swift in Sources */,
 				7B8EA618256CE3DA00F1F564 /* BinarySearchTree.swift in Sources */,
 				7B680A5F258DE954003D5472 /* 545. Boundary of Binary Tree.swift in Sources */,

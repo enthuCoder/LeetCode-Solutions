@@ -73,6 +73,15 @@ struct LCProblemManager {
         // Input_113().executeInput()
         
         // 257. Binary Tree Paths
-        Input_257().executeInput()
+        // Input_257().executeInput()
+        
+        // 53. Maximum Subarray
+       // Input_53().executeInput()
+        
+        // 340. Longest Substring with At Most K Distinct Characters
+        Input_340().executeInput()
+        
+        // 159. Longest Substring with At Most Two Distinct Characters
+        Input_159().executeInput()
     }
 }

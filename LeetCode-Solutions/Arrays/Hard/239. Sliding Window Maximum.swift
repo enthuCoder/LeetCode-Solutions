@@ -67,7 +67,7 @@ class Input_239 {
 extension Input_239 {
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
         var resultArr = [Int]()
-        if nums.isEmpty {
+        if nums.isEmpty || k == 0 {
             return resultArr
         }
         let resultArrCount = nums.count - k + 1

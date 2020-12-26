@@ -79,9 +79,12 @@ struct LCProblemManager {
        // Input_53().executeInput()
         
         // 340. Longest Substring with At Most K Distinct Characters
-        Input_340().executeInput()
+        // Input_340().executeInput()
         
         // 159. Longest Substring with At Most Two Distinct Characters
-        Input_159().executeInput()
+        // Input_159().executeInput()
+        
+        // 560. Subarray Sum Equals K
+        Input_560().executeInput()
     }
 }

@@ -85,6 +85,9 @@ struct LCProblemManager {
         // Input_159().executeInput()
         
         // 560. Subarray Sum Equals K
-        Input_560().executeInput()
+        // Input_560().executeInput()
+        
+        // 3. Longest Substring Without Repeating Characters
+        Input_3().executeInput()
     }
 }

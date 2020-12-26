@@ -38,6 +38,8 @@ extension Input_159 {
     func lengthOfLongestSubstringTwoDistinct(_ s: String) -> Int {
         let k = 2
         var maxLengthSoFar = 0
+        
+        // Key : Character, Value: Right most index of the key in the string
         var scannerDict = [Character : Int]()
         var slidingWindowStartIdx = 0
         var slidingWindowEndIdx = 0
@@ -52,7 +54,7 @@ extension Input_159 {
             if scannerDict.keys.count <= k && (slidingWindowEndIdx - slidingWindowStartIdx > maxLengthSoFar) {
                 maxLengthSoFar = slidingWindowEndIdx - slidingWindowStartIdx
             }
-            // we have more keys in scannerDict than allowed, move slidingWindow to right one step at a time, and remove the key going out of the window, until number keys allowed become equal to allowed limit
+            // If we have more keys in scannerDict than allowed, move slidingWindow to right one step at a time, and remove the key going out of the window, until number keys allowed become equal to allowed limit
             while scannerDict.keys.count > k {
                 if let minValueElement = scannerDict.first(where: { $0.value == scannerDict.values.min() }) {
                     slidingWindowStartIdx = minValueElement.value + 1

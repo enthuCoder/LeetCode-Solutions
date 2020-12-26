@@ -23,6 +23,7 @@
 		7B680A7125950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7025950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift */; };
 		7B680A7425953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */; };
 		7B680A782595591E003D5472 /* 560. Subarray Sum Equals K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */; };
+		7B680A7B2597523B003D5472 /* 3. Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */; };
 		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */; };
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -72,6 +73,7 @@
 		7B680A7025950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "340. Longest Substring with At Most K Distinct Characters.swift"; sourceTree = "<group>"; };
 		7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "159. Longest Substring with At Most Two Distinct Characters.swift"; sourceTree = "<group>"; };
 		7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. Subarray Sum Equals K.swift"; sourceTree = "<group>"; };
+		7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "285. Inorder Successor in BST.swift"; sourceTree = "<group>"; };
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		7B32498B256C6F67001B4B6C /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */,
 				7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */,
 			);
 			path = Medium;
@@ -368,6 +371,7 @@
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
 				7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
+				7B680A7B2597523B003D5472 /* 3. Longest Substring Without Repeating Characters.swift in Sources */,
 				7B7179A325790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift in Sources */,
 				7B7179A6257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift in Sources */,
 				7B680A6E25948DD6003D5472 /* 523. Continuous Subarray Sum.swift in Sources */,

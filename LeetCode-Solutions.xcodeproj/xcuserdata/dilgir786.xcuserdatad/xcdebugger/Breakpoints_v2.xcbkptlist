@@ -152,7 +152,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "121767E6-602C-431A-9E8F-24CBFCDF21BD"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LeetCode-Solutions/Arrays/Medium/560. Subarray Sum Equals K.swift"
@@ -177,6 +177,22 @@
             startingLineNumber = "54"
             endingLineNumber = "54"
             landmarkName = "subarraySum(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEB947A8-350E-45F0-ACE5-302C4E6DB6F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode-Solutions/Strings/Medium/3. Longest Substring Without Repeating Characters.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "lengthOfLongestSubstring(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

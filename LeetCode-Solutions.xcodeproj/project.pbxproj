@@ -24,6 +24,9 @@
 		7B680A7425953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */; };
 		7B680A782595591E003D5472 /* 560. Subarray Sum Equals K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */; };
 		7B680A7B2597523B003D5472 /* 3. Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */; };
+		7B680A7F2597E4C0003D5472 /* 424. Longest Repeating Character Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */; };
+		7B680A8225980D04003D5472 /* 1004. Max Consecutive Ones III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A8125980D04003D5472 /* 1004. Max Consecutive Ones III.swift */; };
+		7B680A8525981782003D5472 /* 487. Max Consecutive Ones II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */; };
 		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */; };
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -74,6 +77,9 @@
 		7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "159. Longest Substring with At Most Two Distinct Characters.swift"; sourceTree = "<group>"; };
 		7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. Subarray Sum Equals K.swift"; sourceTree = "<group>"; };
 		7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
+		7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "424. Longest Repeating Character Replacement.swift"; sourceTree = "<group>"; };
+		7B680A8125980D04003D5472 /* 1004. Max Consecutive Ones III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1004. Max Consecutive Ones III.swift"; sourceTree = "<group>"; };
+		7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "487. Max Consecutive Ones II.swift"; sourceTree = "<group>"; };
 		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "285. Inorder Successor in BST.swift"; sourceTree = "<group>"; };
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -230,6 +236,7 @@
 			children = (
 				7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */,
 				7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */,
+				7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -275,8 +282,10 @@
 		7B324991256C6F91001B4B6C /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */,
 				7B680A6D25948DD5003D5472 /* 523. Continuous Subarray Sum.swift */,
 				7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */,
+				7B680A8125980D04003D5472 /* 1004. Max Consecutive Ones III.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -368,8 +377,10 @@
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				7B680A682591A00D003D5472 /* 257. Binary Tree Paths.swift in Sources */,
+				7B680A8525981782003D5472 /* 487. Max Consecutive Ones II.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
+				7B680A7F2597E4C0003D5472 /* 424. Longest Repeating Character Replacement.swift in Sources */,
 				7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
 				7B680A7B2597523B003D5472 /* 3. Longest Substring Without Repeating Characters.swift in Sources */,
 				7B7179A325790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift in Sources */,
@@ -385,6 +396,7 @@
 				7B680A5F258DE954003D5472 /* 545. Boundary of Binary Tree.swift in Sources */,
 				7B7179AD25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift in Sources */,
 				7B680A782595591E003D5472 /* 560. Subarray Sum Equals K.swift in Sources */,
+				7B680A8225980D04003D5472 /* 1004. Max Consecutive Ones III.swift in Sources */,
 				7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				7B680A6B25927F95003D5472 /* 53. Maximum Subarray.swift in Sources */,
 				7B7179982578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift in Sources */,

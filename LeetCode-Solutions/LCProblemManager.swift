@@ -88,6 +88,15 @@ struct LCProblemManager {
         // Input_560().executeInput()
         
         // 3. Longest Substring Without Repeating Characters
-        Input_3().executeInput()
+        // Input_3().executeInput()
+        
+        // 424. Longest Repeating Character Replacement
+        // Input_424().executeInput()
+        
+        // 1004. Max Consecutive Ones III
+        Input_1004().executeInput()
+        
+        // 487. Max Consecutive Ones II
+        Input_487().executeInput()
     }
 }

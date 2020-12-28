@@ -27,6 +27,9 @@
 		7B680A7F2597E4C0003D5472 /* 424. Longest Repeating Character Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */; };
 		7B680A8225980D04003D5472 /* 1004. Max Consecutive Ones III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A8125980D04003D5472 /* 1004. Max Consecutive Ones III.swift */; };
 		7B680A8525981782003D5472 /* 487. Max Consecutive Ones II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */; };
+		7B680A892599E098003D5472 /* 567. Permutation in String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A882599E098003D5472 /* 567. Permutation in String.swift */; };
+		7B680A8C2599F706003D5472 /* 438. Find All Anagrams in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A8B2599F706003D5472 /* 438. Find All Anagrams in a String.swift */; };
+		7B680A8F2599FABC003D5472 /* 242. Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A8E2599FABC003D5472 /* 242. Valid Anagram.swift */; };
 		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */; };
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -80,6 +83,9 @@
 		7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "424. Longest Repeating Character Replacement.swift"; sourceTree = "<group>"; };
 		7B680A8125980D04003D5472 /* 1004. Max Consecutive Ones III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1004. Max Consecutive Ones III.swift"; sourceTree = "<group>"; };
 		7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "487. Max Consecutive Ones II.swift"; sourceTree = "<group>"; };
+		7B680A882599E098003D5472 /* 567. Permutation in String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "567. Permutation in String.swift"; sourceTree = "<group>"; };
+		7B680A8B2599F706003D5472 /* 438. Find All Anagrams in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438. Find All Anagrams in a String.swift"; sourceTree = "<group>"; };
+		7B680A8E2599FABC003D5472 /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "285. Inorder Successor in BST.swift"; sourceTree = "<group>"; };
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -226,6 +232,7 @@
 		7B32498A256C6F61001B4B6C /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				7B680A8E2599FABC003D5472 /* 242. Valid Anagram.swift */,
 				7B8EA60E256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift */,
 			);
 			path = Easy;
@@ -237,6 +244,8 @@
 				7B680A7A2597523A003D5472 /* 3. Longest Substring Without Repeating Characters.swift */,
 				7B680A7325953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift */,
 				7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */,
+				7B680A8B2599F706003D5472 /* 438. Find All Anagrams in a String.swift */,
+				7B680A882599E098003D5472 /* 567. Permutation in String.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -376,6 +385,7 @@
 				7B680A7425953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift in Sources */,
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
+				7B680A8F2599FABC003D5472 /* 242. Valid Anagram.swift in Sources */,
 				7B680A682591A00D003D5472 /* 257. Binary Tree Paths.swift in Sources */,
 				7B680A8525981782003D5472 /* 487. Max Consecutive Ones II.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
@@ -387,6 +397,7 @@
 				7B7179A6257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift in Sources */,
 				7B680A6E25948DD6003D5472 /* 523. Continuous Subarray Sum.swift in Sources */,
 				7B7179B025855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift in Sources */,
+				7B680A892599E098003D5472 /* 567. Permutation in String.swift in Sources */,
 				7B71799C257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift in Sources */,
 				7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */,
 				7B680A7125950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift in Sources */,
@@ -408,6 +419,7 @@
 				7B680A5C258DE621003D5472 /* 199. Binary Tree Right Side View.swift in Sources */,
 				7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */,
 				7B8EA615256CDF0300F1F564 /* TreeNode.swift in Sources */,
+				7B680A8C2599F706003D5472 /* 438. Find All Anagrams in a String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

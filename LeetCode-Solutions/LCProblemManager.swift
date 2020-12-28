@@ -94,9 +94,18 @@ struct LCProblemManager {
         // Input_424().executeInput()
         
         // 1004. Max Consecutive Ones III
-        Input_1004().executeInput()
+        // Input_1004().executeInput()
         
         // 487. Max Consecutive Ones II
-        Input_487().executeInput()
+        // Input_487().executeInput()
+        
+        // 567. Permutation in String
+        // Input_567().executeInput()
+        
+        // 438. Find All Anagrams in a String
+        // Input_438().executeInput()
+        
+        // 242. Valid Anagram
+        Input_242().executeInput()
     }
 }

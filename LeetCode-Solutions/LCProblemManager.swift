@@ -106,6 +106,22 @@ struct LCProblemManager {
         // Input_438().executeInput()
         
         // 242. Valid Anagram
-        Input_242().executeInput()
+        // Input_242().executeInput()
+        
+        // 76. Minimum Window Substring
+        // TIME LIMIT EXCEEDED. NEED TO REVISIT THE SOLUTION
+        //Input_76().executeInput()
+        
+        // 167. Two Sum II - Input array is sorted
+        // Input_167().executeInput()
+        
+        // 26. Remove Duplicates from Sorted Array
+        // Input_26().executeInput()
+        
+        // 27. Remove Element
+        // Input_27().executeInput()
+        
+        // 977. Squares of a Sorted Array
+        Input_977().executeInput()
     }
 }

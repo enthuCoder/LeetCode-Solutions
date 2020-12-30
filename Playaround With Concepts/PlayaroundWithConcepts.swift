@@ -19,6 +19,8 @@ struct PlayaroundWithConcepts {
         // input_findMaxSumSubArray()
         
         // input_findMinSubArray()
+        
+        input_charArrayMap()
     }
 }
 
@@ -66,6 +68,16 @@ extension PlayaroundWithConcepts {
         for index in stride(from: input.count - 1, through: 0, by: -1) {
             print("\(input[index])")
         }
+    }
+}
+
+extension PlayaroundWithConcepts {
+    func input_charArrayMap() {
+        let name: [Character] = ["d", "i", "l", "g", "i", "r"]
+        let string = name.reduce("") { (x, y) in
+            x + String(y)
+        }
+        print(string)
     }
 }
 

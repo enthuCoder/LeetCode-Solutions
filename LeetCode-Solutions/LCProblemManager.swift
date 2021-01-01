@@ -122,6 +122,12 @@ struct LCProblemManager {
         // Input_27().executeInput()
         
         // 977. Squares of a Sorted Array
-        Input_977().executeInput()
+        // Input_977().executeInput()
+        
+        // 1. Two Sum
+        // Input_1().executeInput()
+        
+        // 15. 3Sum
+        Input_15().executeInput()
     }
 }

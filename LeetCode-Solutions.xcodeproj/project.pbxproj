@@ -10,6 +10,7 @@
 		7B32497A256C6CF0001B4B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324979256C6CF0001B4B6C /* main.swift */; };
 		7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */; };
 		7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324997256C72A4001B4B6C /* LCProblemManager.swift */; };
+		7B610D74259D84190087293D /* 1. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D73259D84190087293D /* 1. Two Sum.swift */; };
 		7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */; };
 		7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */; };
 		7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */; };
@@ -35,6 +36,7 @@
 		7B680A9A259C9439003D5472 /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A99259C9439003D5472 /* 26. Remove Duplicates from Sorted Array.swift */; };
 		7B680A9E259C99A8003D5472 /* 27. Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A9D259C99A8003D5472 /* 27. Remove Element.swift */; };
 		7B680AA1259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680AA0259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift */; };
+		7B680AA4259D821D003D5472 /* 15. 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680AA3259D821C003D5472 /* 15. 3Sum.swift */; };
 		7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */; };
 		7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */; };
 		7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -71,6 +73,7 @@
 		7B324979256C6CF0001B4B6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089. Duplicate Zeros.swift"; sourceTree = "<group>"; };
 		7B324997256C72A4001B4B6C /* LCProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProblemManager.swift; sourceTree = "<group>"; };
+		7B610D73259D84190087293D /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayaroundWithConcepts.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 		7B680A99259C9439003D5472 /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		7B680A9D259C99A8003D5472 /* 27. Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27. Remove Element.swift"; sourceTree = "<group>"; };
 		7B680AA0259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977. Squares of a Sorted Array.swift"; sourceTree = "<group>"; };
+		7B680AA3259D821C003D5472 /* 15. 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 3Sum.swift"; sourceTree = "<group>"; };
 		7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "285. Inorder Successor in BST.swift"; sourceTree = "<group>"; };
 		7B7179942578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -293,6 +297,7 @@
 		7B324990256C6F8C001B4B6C /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				7B610D73259D84190087293D /* 1. Two Sum.swift */,
 				7B680A99259C9439003D5472 /* 26. Remove Duplicates from Sorted Array.swift */,
 				7B680A9D259C99A8003D5472 /* 27. Remove Element.swift */,
 				7B680A6A25927F95003D5472 /* 53. Maximum Subarray.swift */,
@@ -306,6 +311,7 @@
 		7B324991256C6F91001B4B6C /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				7B680AA3259D821C003D5472 /* 15. 3Sum.swift */,
 				7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */,
 				7B680A6D25948DD5003D5472 /* 523. Continuous Subarray Sum.swift */,
 				7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */,
@@ -402,6 +408,7 @@
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				7B680A8F2599FABC003D5472 /* 242. Valid Anagram.swift in Sources */,
+				7B680AA4259D821D003D5472 /* 15. 3Sum.swift in Sources */,
 				7B680A682591A00D003D5472 /* 257. Binary Tree Paths.swift in Sources */,
 				7B680A96259C8DEC003D5472 /* 167. Two Sum II - Input array is sorted.swift in Sources */,
 				7B680A8525981782003D5472 /* 487. Max Consecutive Ones II.swift in Sources */,
@@ -421,6 +428,7 @@
 				7B680A7125950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift in Sources */,
 				7B680A652591569B003D5472 /* 113. Path Sum II.swift in Sources */,
 				7B680A62258E1439003D5472 /* 112. Path Sum.swift in Sources */,
+				7B610D74259D84190087293D /* 1. Two Sum.swift in Sources */,
 				7B8EA618256CE3DA00F1F564 /* BinarySearchTree.swift in Sources */,
 				7B680A5F258DE954003D5472 /* 545. Boundary of Binary Tree.swift in Sources */,
 				7B7179AD25850839003F7378 /* 103. Binary Tree Zigzag Level Order Traversal.swift in Sources */,

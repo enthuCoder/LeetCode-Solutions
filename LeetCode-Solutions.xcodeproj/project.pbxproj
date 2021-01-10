@@ -11,6 +11,12 @@
 		7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */; };
 		7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B324997256C72A4001B4B6C /* LCProblemManager.swift */; };
 		7B610D74259D84190087293D /* 1. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D73259D84190087293D /* 1. Two Sum.swift */; };
+		7B610D77259FAAA50087293D /* 16. 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D76259FAAA50087293D /* 16. 3Sum Closest.swift */; };
+		7B610D7B259FB02A0087293D /* 259. 3Sum Smaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D7A259FB02A0087293D /* 259. 3Sum Smaller.swift */; };
+		7B610D7E259FFFBA0087293D /* 1099. Two Sum Less Than K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D7D259FFFBA0087293D /* 1099. Two Sum Less Than K.swift */; };
+		7B610D8125A05B870087293D /* SinglyLinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D8025A05B870087293D /* SinglyLinkedListNode.swift */; };
+		7B610D8425A05DDD0087293D /* 2. Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D8325A05DDD0087293D /* 2. Add Two Numbers.swift */; };
+		7B610D8825A2B9880087293D /* 30. Substring with Concatenation of All Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D8725A2B9880087293D /* 30. Substring with Concatenation of All Words.swift */; };
 		7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */; };
 		7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */; };
 		7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */; };
@@ -74,6 +80,12 @@
 		7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089. Duplicate Zeros.swift"; sourceTree = "<group>"; };
 		7B324997256C72A4001B4B6C /* LCProblemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProblemManager.swift; sourceTree = "<group>"; };
 		7B610D73259D84190087293D /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
+		7B610D76259FAAA50087293D /* 16. 3Sum Closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16. 3Sum Closest.swift"; sourceTree = "<group>"; };
+		7B610D7A259FB02A0087293D /* 259. 3Sum Smaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "259. 3Sum Smaller.swift"; sourceTree = "<group>"; };
+		7B610D7D259FFFBA0087293D /* 1099. Two Sum Less Than K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1099. Two Sum Less Than K.swift"; sourceTree = "<group>"; };
+		7B610D8025A05B870087293D /* SinglyLinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedListNode.swift; sourceTree = "<group>"; };
+		7B610D8325A05DDD0087293D /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
+		7B610D8725A2B9880087293D /* 30. Substring with Concatenation of All Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30. Substring with Concatenation of All Words.swift"; sourceTree = "<group>"; };
 		7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayaroundWithConcepts.swift; sourceTree = "<group>"; };
@@ -174,6 +186,7 @@
 		7B324984256C6EAB001B4B6C /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				7B610D8025A05B870087293D /* SinglyLinkedListNode.swift */,
 				7B32498F256C6F84001B4B6C /* Hard */,
 				7B32498E256C6F7C001B4B6C /* Medium */,
 				7B32498D256C6F76001B4B6C /* Easy */,
@@ -267,8 +280,9 @@
 		7B32498C256C6F6E001B4B6C /* Hard */ = {
 			isa = PBXGroup;
 			children = (
-				7B680A7025950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift */,
 				7B680A922599FEDA003D5472 /* 76. Minimum Window Substring.swift */,
+				7B610D8725A2B9880087293D /* 30. Substring with Concatenation of All Words.swift */,
+				7B680A7025950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -283,6 +297,7 @@
 		7B32498E256C6F7C001B4B6C /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				7B610D8325A05DDD0087293D /* 2. Add Two Numbers.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -304,6 +319,7 @@
 				7B680A95259C8DEC003D5472 /* 167. Two Sum II - Input array is sorted.swift */,
 				7B680AA0259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift */,
 				7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */,
+				7B610D7D259FFFBA0087293D /* 1099. Two Sum Less Than K.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -312,6 +328,8 @@
 			isa = PBXGroup;
 			children = (
 				7B680AA3259D821C003D5472 /* 15. 3Sum.swift */,
+				7B610D76259FAAA50087293D /* 16. 3Sum Closest.swift */,
+				7B610D7A259FB02A0087293D /* 259. 3Sum Smaller.swift */,
 				7B680A8425981782003D5472 /* 487. Max Consecutive Ones II.swift */,
 				7B680A6D25948DD5003D5472 /* 523. Continuous Subarray Sum.swift */,
 				7B680A772595591E003D5472 /* 560. Subarray Sum Equals K.swift */,
@@ -403,21 +421,25 @@
 			files = (
 				7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				7B8EA61E256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift in Sources */,
+				7B610D8425A05DDD0087293D /* 2. Add Two Numbers.swift in Sources */,
 				7B680A932599FEDA003D5472 /* 76. Minimum Window Substring.swift in Sources */,
 				7B680A7425953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift in Sources */,
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				7B680A8F2599FABC003D5472 /* 242. Valid Anagram.swift in Sources */,
+				7B610D8125A05B870087293D /* SinglyLinkedListNode.swift in Sources */,
 				7B680AA4259D821D003D5472 /* 15. 3Sum.swift in Sources */,
 				7B680A682591A00D003D5472 /* 257. Binary Tree Paths.swift in Sources */,
 				7B680A96259C8DEC003D5472 /* 167. Two Sum II - Input array is sorted.swift in Sources */,
 				7B680A8525981782003D5472 /* 487. Max Consecutive Ones II.swift in Sources */,
+				7B610D8825A2B9880087293D /* 30. Substring with Concatenation of All Words.swift in Sources */,
 				7B680A9E259C99A8003D5472 /* 27. Remove Element.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
 				7B680A7F2597E4C0003D5472 /* 424. Longest Repeating Character Replacement.swift in Sources */,
 				7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
 				7B680A7B2597523B003D5472 /* 3. Longest Substring Without Repeating Characters.swift in Sources */,
+				7B610D7E259FFFBA0087293D /* 1099. Two Sum Less Than K.swift in Sources */,
 				7B7179A325790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift in Sources */,
 				7B7179A6257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift in Sources */,
 				7B680A6E25948DD6003D5472 /* 523. Continuous Subarray Sum.swift in Sources */,
@@ -426,6 +448,7 @@
 				7B71799C257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift in Sources */,
 				7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */,
 				7B680A7125950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift in Sources */,
+				7B610D7B259FB02A0087293D /* 259. 3Sum Smaller.swift in Sources */,
 				7B680A652591569B003D5472 /* 113. Path Sum II.swift in Sources */,
 				7B680A62258E1439003D5472 /* 112. Path Sum.swift in Sources */,
 				7B610D74259D84190087293D /* 1. Two Sum.swift in Sources */,
@@ -444,6 +467,7 @@
 				7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */,
 				7B8EA621256EF38800F1F564 /* 144. Binary Tree Preorder Traversal.swift in Sources */,
 				7B71798F257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift in Sources */,
+				7B610D77259FAAA50087293D /* 16. 3Sum Closest.swift in Sources */,
 				7B680A5C258DE621003D5472 /* 199. Binary Tree Right Side View.swift in Sources */,
 				7B324998256C72A4001B4B6C /* LCProblemManager.swift in Sources */,
 				7B8EA615256CDF0300F1F564 /* TreeNode.swift in Sources */,

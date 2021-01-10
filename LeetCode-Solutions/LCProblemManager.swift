@@ -128,6 +128,16 @@ struct LCProblemManager {
         // Input_1().executeInput()
         
         // 15. 3Sum
-        Input_15().executeInput()
+        // Input_15().executeInput()
+        
+        // 16. 3Sum Closest
+        // Input_16().executeInput()
+        
+        // 259. 3Sum Smaller
+        // TO BE DONE
+        // Input_259().executeInput()
+        
+        // 30. Substring with Concatenation of All Words
+        Input_30().executeInput()
     }
 }

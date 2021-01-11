@@ -142,9 +142,12 @@ struct LCProblemManager {
         // Input_30().executeInput()
         
         // 244. Shortest Word Distance II
-        Input_244(["practice", "makes", "perfect", "coding", "makes"]).executeInput()
+       // Input_244(["practice", "makes", "perfect", "coding", "makes"]).executeInput()
         
         // 245. Shortest Word Distance III
-        Input_245().executeInput()
+        // Input_245().executeInput()
+        
+        // 366. Find Leaves of Binary Tree
+        Input_366().executeInput()
     }
 }

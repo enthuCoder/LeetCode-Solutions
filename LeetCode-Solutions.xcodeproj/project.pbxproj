@@ -20,6 +20,7 @@
 		7B610D8B25AC090B0087293D /* 243. Shortest Word Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D8A25AC090B0087293D /* 243. Shortest Word Distance.swift */; };
 		7B610D8E25AC0DAB0087293D /* 244. Shortest Word Distance II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D8D25AC0DAB0087293D /* 244. Shortest Word Distance II.swift */; };
 		7B610D9125AC16A10087293D /* 245. Shortest Word Distance III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D9025AC16A10087293D /* 245. Shortest Word Distance III.swift */; };
+		7B610D9425AC584A0087293D /* 366. Find Leaves of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610D9325AC584A0087293D /* 366. Find Leaves of Binary Tree.swift */; };
 		7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */; };
 		7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */; };
 		7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */; };
@@ -92,6 +93,7 @@
 		7B610D8A25AC090B0087293D /* 243. Shortest Word Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "243. Shortest Word Distance.swift"; sourceTree = "<group>"; };
 		7B610D8D25AC0DAB0087293D /* 244. Shortest Word Distance II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "244. Shortest Word Distance II.swift"; sourceTree = "<group>"; };
 		7B610D9025AC16A10087293D /* 245. Shortest Word Distance III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "245. Shortest Word Distance III.swift"; sourceTree = "<group>"; };
+		7B610D9325AC584A0087293D /* 366. Find Leaves of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "366. Find Leaves of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayaroundWithConcepts.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				7B71798E257830C4003F7378 /* 230. Kth Smallest Element in a BST.swift */,
 				7B71799125783CB5003F7378 /* 285. Inorder Successor in BST.swift */,
 				7B7179AF25855FCE003F7378 /* 314. Binary Tree Vertical Order Traversal.swift */,
+				7B610D9325AC584A0087293D /* 366. Find Leaves of Binary Tree.swift */,
 				7B71799B257901AC003F7378 /* 429. N-ary Tree Level Order Traversal.swift */,
 				7B680A5E258DE954003D5472 /* 545. Boundary of Binary Tree.swift */,
 			);
@@ -471,6 +474,7 @@
 				7B680A8225980D04003D5472 /* 1004. Max Consecutive Ones III.swift in Sources */,
 				7B7179952578F620003F7378 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				7B680A6B25927F95003D5472 /* 53. Maximum Subarray.swift in Sources */,
+				7B610D9425AC584A0087293D /* 366. Find Leaves of Binary Tree.swift in Sources */,
 				7B7179982578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift in Sources */,
 				7B32497A256C6CF0001B4B6C /* main.swift in Sources */,
 				7B680AA1259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift in Sources */,

@@ -10,6 +10,8 @@ import Foundation
 class BinarySearchTree<T: Comparable & CustomStringConvertible> {
     
     var root: TreeNode<T>?
+    
+    public init() {}
 
 }
 
@@ -52,6 +54,76 @@ extension BinarySearchTree {
                 insert(newNode: newNode, withRoot: rootNode.right!)
             }
         }
+    }
+}
+
+// MARK: Searching a value
+extension BinarySearchTree {
+    public func search(_ value: T) -> TreeNode<T>? {
+        return self.search(self.root, value)
+    }
+    
+    // Do Post-Order traversal for Searching the value
+    @discardableResult
+    private func search(_ root: TreeNode<T>?, _ value: T) -> TreeNode<T>? {
+        guard  let rootNode = root else {
+            print("Node with value \(value) is not available")
+            return nil
+        }
+        print("Current Root Node: \(rootNode.val)")
+        if rootNode.val == value {
+            print("Node value available: \(rootNode.val)")
+            return root
+        } else if rootNode.val < value {
+            return search(rootNode.left, value)
+        } else if rootNode.val > value {
+            return search(rootNode.right, value)
+        }
+        return nil
+    }
+}
+
+// MARK: Delete a Node
+/*
+ Steps:
+ Case 1: Element to be deleted is a leaf node
+        - Navigate to the node and delete it
+ 
+ Case 2: Node that needs to be deleted has one child (Similar to how it is done for Linked List)
+        - Child's connection is first made with the parent of the node to be deleted.
+        - Delete the node to be deleted
+ 
+ Case 3: Node to be deleted has 2 Children
+        - Find:
+            * Smallest value in the Right Subtree, or
+            * Largest value in the Left Subtree (we may chose this when no right subtree is present)
+        - Now swap the value of the above "Find" with the Node to be deleted
+        - This would now have reduced to either Case 1 or Case 2.
+ */
+extension BinarySearchTree {
+    func delete(_ value: T) {
+        self.root = self.deleteRecursive(self.root, value)
+    }
+    
+    func deleteRecursive(_ root: TreeNode<T>?, _ value: T) -> TreeNode<T>? {
+        guard let rootNode = root else {
+            return nil
+        }
+        if value > (rootNode.val) {
+            rootNode.right = deleteRecursive(rootNode.right, value)
+        } else if value < rootNode.val {
+            rootNode.left = deleteRecursive(rootNode.left, value)
+        } else {
+            if rootNode.left == nil {
+                return rootNode.right
+            } else if rootNode.right == nil {
+                return rootNode.left
+            }
+            
+            
+            
+        }
+        return root
     }
 }
 

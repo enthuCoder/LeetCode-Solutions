@@ -138,6 +138,13 @@ struct LCProblemManager {
         // Input_259().executeInput()
         
         // 30. Substring with Concatenation of All Words
-        Input_30().executeInput()
+        // TBD
+        // Input_30().executeInput()
+        
+        // 244. Shortest Word Distance II
+        Input_244(["practice", "makes", "perfect", "coding", "makes"]).executeInput()
+        
+        // 245. Shortest Word Distance III
+        Input_245().executeInput()
     }
 }

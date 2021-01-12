@@ -53,6 +53,8 @@ extension Input_366 {
     }
     
     // This function populates heightDict with Keys and Values and returns the max height at the end
+    // Alternatively, one can do post order DFS traversal to populate each node with its value and depth.
+    // Afterwards, we can sort the dictionary based on height of node
     func height(_ node: TreeNode<Int>?, dict: inout [Int : [Int]]) -> Int {
         guard  let node = node else { return 0 }
         let currHeight = max(height(node.left, dict: &dict), height(node.right, dict: &dict)) + 1

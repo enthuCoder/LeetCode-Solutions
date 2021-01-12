@@ -231,9 +231,9 @@
 				7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */,
 				7B680A61258E1439003D5472 /* 112. Path Sum.swift */,
 				7B680A672591A00D003D5472 /* 257. Binary Tree Paths.swift */,
-				7B7179972578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift */,
 				7B7179A225790381003F7378 /* 589. N-ary Tree Preorder Traversal.swift */,
 				7B7179A5257907C7003F7378 /* 590. N-ary Tree Postorder Traversal.swift */,
+				7B7179972578FFFF003F7378 /* 637. Average of Levels in Binary Tree.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -289,8 +289,8 @@
 		7B32498C256C6F6E001B4B6C /* Hard */ = {
 			isa = PBXGroup;
 			children = (
-				7B680A922599FEDA003D5472 /* 76. Minimum Window Substring.swift */,
 				7B610D8725A2B9880087293D /* 30. Substring with Concatenation of All Words.swift */,
+				7B680A922599FEDA003D5472 /* 76. Minimum Window Substring.swift */,
 				7B680A7025950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift */,
 			);
 			path = Hard;

@@ -148,6 +148,21 @@ struct LCProblemManager {
         // Input_245().executeInput()
         
         // 366. Find Leaves of Binary Tree
-        Input_366().executeInput()
+        // Input_366().executeInput()
+        
+        // 200. Number of Islands
+        // Input_200().executeInput()
+        
+        // 9. Palindrome Number
+        // Input_9().executeInput()
+        
+        // 11. Container With Most Water
+        // Input_11().executeInput()
+        
+        // 1608. Special Array With X Elements Greater Than or Equal X
+        // Input_1608().executeInput()
+        
+        // 1344. Angle Between Hands of a Clock
+        Input_1344().executeInput()
     }
 }

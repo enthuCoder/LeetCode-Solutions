@@ -14,5 +14,12 @@ problemManager.runProblemManager()
 // Test your Concepts Understanding here
 /* */
     let testYourConcepts = PlayaroundWithConcepts()
-    testYourConcepts.testYourConcepts()
+    //testYourConcepts.testYourConcepts()
 
+func printAllSwiftFiles() {
+    var url = URL(string: #file)
+    var paths = url?.pathComponents
+    print("\(paths)")
+}
+
+printAllSwiftFiles()

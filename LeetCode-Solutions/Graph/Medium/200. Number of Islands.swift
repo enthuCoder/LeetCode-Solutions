@@ -58,7 +58,7 @@ extension Input_200 {
         for currRow in stride(from: 0, to: grid.count, by: 1) {
             for currCol in stride(from: 0, to: grid[0].count, by: 1) {
                 if grid[currRow][currCol] == "1" && visited[currRow][currCol] == false {
-                    // found the islands, update its neghbours
+                    // found the islands, update its neighbours
                     processNeighbours(grid, &visited, currRow, currCol)
                     result += 1
                 }

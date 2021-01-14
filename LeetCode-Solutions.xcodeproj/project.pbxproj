@@ -27,6 +27,11 @@
 		7B610DA425AFAD0F0087293D /* 14. Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DA325AFAD0F0087293D /* 14. Longest Common Prefix.swift */; };
 		7B610DA725AFD7E70087293D /* 1608. Special Array With X Elements Greater Than or Equal X.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DA625AFD7E70087293D /* 1608. Special Array With X Elements Greater Than or Equal X.swift */; };
 		7B610DAA25AFDDC30087293D /* 1344. Angle Between Hands of a Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DA925AFDDC30087293D /* 1344. Angle Between Hands of a Clock.swift */; };
+		7B610DB025AFE6150087293D /* 1295. Find Numbers with Even Number of Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DAF25AFE6150087293D /* 1295. Find Numbers with Even Number of Digits.swift */; };
+		7B610DB325AFE8A30087293D /* 1249. Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DB225AFE8A30087293D /* 1249. Minimum Remove to Make Valid Parentheses.swift */; };
+		7B610DB625AFF9FB0087293D /* 42. Trapping Rain Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DB525AFF9FB0087293D /* 42. Trapping Rain Water.swift */; };
+		7B610DBA25B009650087293D /* 206. Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DB925B009650087293D /* 206. Reverse Linked List.swift */; };
+		7B610DBD25B00C980087293D /* 445. Add Two Numbers II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B610DBC25B00C980087293D /* 445. Add Two Numbers II.swift */; };
 		7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */; };
 		7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */; };
 		7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */; };
@@ -106,6 +111,11 @@
 		7B610DA325AFAD0F0087293D /* 14. Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14. Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		7B610DA625AFD7E70087293D /* 1608. Special Array With X Elements Greater Than or Equal X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1608. Special Array With X Elements Greater Than or Equal X.swift"; sourceTree = "<group>"; };
 		7B610DA925AFDDC30087293D /* 1344. Angle Between Hands of a Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1344. Angle Between Hands of a Clock.swift"; sourceTree = "<group>"; };
+		7B610DAF25AFE6150087293D /* 1295. Find Numbers with Even Number of Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1295. Find Numbers with Even Number of Digits.swift"; sourceTree = "<group>"; };
+		7B610DB225AFE8A30087293D /* 1249. Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1249. Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
+		7B610DB525AFF9FB0087293D /* 42. Trapping Rain Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42. Trapping Rain Water.swift"; sourceTree = "<group>"; };
+		7B610DB925B009650087293D /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
+		7B610DBC25B00C980087293D /* 445. Add Two Numbers II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "445. Add Two Numbers II.swift"; sourceTree = "<group>"; };
 		7B680A4D25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A50258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7B680A58258DBF39003D5472 /* PlayaroundWithConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayaroundWithConcepts.swift; sourceTree = "<group>"; };
@@ -296,6 +306,7 @@
 				7B680A7E2597E4BF003D5472 /* 424. Longest Repeating Character Replacement.swift */,
 				7B680A8B2599F706003D5472 /* 438. Find All Anagrams in a String.swift */,
 				7B680A882599E098003D5472 /* 567. Permutation in String.swift */,
+				7B610DB225AFE8A30087293D /* 1249. Minimum Remove to Make Valid Parentheses.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -313,6 +324,7 @@
 		7B32498D256C6F76001B4B6C /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				7B610DB925B009650087293D /* 206. Reverse Linked List.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -321,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				7B610D8325A05DDD0087293D /* 2. Add Two Numbers.swift */,
+				7B610DBC25B00C980087293D /* 445. Add Two Numbers II.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -344,6 +357,7 @@
 				7B680AA0259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift */,
 				7B324993256C70C8001B4B6C /* 1089. Duplicate Zeros.swift */,
 				7B610D7D259FFFBA0087293D /* 1099. Two Sum Less Than K.swift */,
+				7B610DAF25AFE6150087293D /* 1295. Find Numbers with Even Number of Digits.swift */,
 				7B610DA625AFD7E70087293D /* 1608. Special Array With X Elements Greater Than or Equal X.swift */,
 			);
 			path = Easy;
@@ -371,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				7B7179A92579F12C003F7378 /* 239. Sliding Window Maximum.swift */,
+				7B610DB525AFF9FB0087293D /* 42. Trapping Rain Water.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -378,7 +393,7 @@
 		7B610D9725AE965E0087293D /* Graph */ = {
 			isa = PBXGroup;
 			children = (
-				7B610D9825AE967B0087293D /* 200. Number of Islands.swift */,
+				7B610DB825AFFD7A0087293D /* Medium */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -404,6 +419,14 @@
 			isa = PBXGroup;
 			children = (
 				7B610DA925AFDDC30087293D /* 1344. Angle Between Hands of a Clock.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		7B610DB825AFFD7A0087293D /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				7B610D9825AE967B0087293D /* 200. Number of Islands.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -481,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B610DBD25B00C980087293D /* 445. Add Two Numbers II.swift in Sources */,
 				7B680A51258598D6003D5472 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				7B8EA61E256EF36100F1F564 /* 145. Binary Tree Postorder Traversal.swift in Sources */,
 				7B610D8B25AC090B0087293D /* 243. Shortest Word Distance.swift in Sources */,
@@ -488,6 +512,7 @@
 				7B680A932599FEDA003D5472 /* 76. Minimum Window Substring.swift in Sources */,
 				7B680A7425953815003D5472 /* 159. Longest Substring with At Most Two Distinct Characters.swift in Sources */,
 				7B7179A025790238003F7378 /* NAryTreeNode.swift in Sources */,
+				7B610DBA25B009650087293D /* 206. Reverse Linked List.swift in Sources */,
 				7B610DA125AF9CDF0087293D /* 11. Container With Most Water.swift in Sources */,
 				7B8EA612256CDDF800F1F564 /* 94. Binary Tree Inorder Traversal.swift in Sources */,
 				7B680A8F2599FABC003D5472 /* 242. Valid Anagram.swift in Sources */,
@@ -499,6 +524,7 @@
 				7B610D8825A2B9880087293D /* 30. Substring with Concatenation of All Words.swift in Sources */,
 				7B680A9E259C99A8003D5472 /* 27. Remove Element.swift in Sources */,
 				7B8EA60F256CBDF000F1F564 /* 1221. Split a String in Balanced Strings.swift in Sources */,
+				7B610DB325AFE8A30087293D /* 1249. Minimum Remove to Make Valid Parentheses.swift in Sources */,
 				7B324994256C70C8001B4B6C /* 1089. Duplicate Zeros.swift in Sources */,
 				7B680A7F2597E4C0003D5472 /* 424. Longest Repeating Character Replacement.swift in Sources */,
 				7B680A4E25859310003D5472 /* 111. Minimum Depth of Binary Tree.swift in Sources */,
@@ -514,6 +540,7 @@
 				7B680A59258DBF39003D5472 /* PlayaroundWithConcepts.swift in Sources */,
 				7B680A7125950951003D5472 /* 340. Longest Substring with At Most K Distinct Characters.swift in Sources */,
 				7B610D7B259FB02A0087293D /* 259. 3Sum Smaller.swift in Sources */,
+				7B610DB625AFF9FB0087293D /* 42. Trapping Rain Water.swift in Sources */,
 				7B680A652591569B003D5472 /* 113. Path Sum II.swift in Sources */,
 				7B680A62258E1439003D5472 /* 112. Path Sum.swift in Sources */,
 				7B610D9925AE967C0087293D /* 200. Number of Islands.swift in Sources */,
@@ -535,6 +562,7 @@
 				7B680AA1259C9BB4003D5472 /* 977. Squares of a Sorted Array.swift in Sources */,
 				7B7179AA2579F12C003F7378 /* 239. Sliding Window Maximum.swift in Sources */,
 				7B71799225783CB5003F7378 /* 285. Inorder Successor in BST.swift in Sources */,
+				7B610DB025AFE6150087293D /* 1295. Find Numbers with Even Number of Digits.swift in Sources */,
 				7B610D8E25AC0DAB0087293D /* 244. Shortest Word Distance II.swift in Sources */,
 				7B610DA425AFAD0F0087293D /* 14. Longest Common Prefix.swift in Sources */,
 				7B8EA621256EF38800F1F564 /* 144. Binary Tree Preorder Traversal.swift in Sources */,

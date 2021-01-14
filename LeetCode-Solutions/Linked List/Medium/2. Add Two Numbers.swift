@@ -47,7 +47,13 @@ extension Input_2 {
         
         while l1List != nil || l2List != nil || carry != 0 {
             let curr = ListNode(0)
-            //let sum = (l1List != nil ? l1List?.val : 0) + (l2List != nil ? l2List!.val : 0) + carry
+            let sum = (l1List != nil ? l1List!.val : 0) + (l2List != nil ? l2List!.val : 0) + carry
+            curr.val = sum % 10
+            carry = sum / 10
+            prevNode.next = curr
+            prevNode = curr
+            l1List = l1List == nil ? l1List : l1List!.next
+            l2List = l2List == nil ? l2List : l2List!.next
         }
         return head.next
     }

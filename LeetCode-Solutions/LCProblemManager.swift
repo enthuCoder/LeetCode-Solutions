@@ -163,6 +163,25 @@ struct LCProblemManager {
         // Input_1608().executeInput()
         
         // 1344. Angle Between Hands of a Clock
-        Input_1344().executeInput()
+        // Input_1344().executeInput()
+        
+        // 1295. Find Numbers with Even Number of Digits
+        // Input_1295().executeInput()
+        
+        // 1249. Minimum Remove to Make Valid Parentheses
+        // Input_1249().executeInput()
+        
+        // 42. Trapping Rain Water
+        // Input_42().executeInput()
+        
+        // 2. Add Two Numbers
+        // Input_2().executeInput()
+
+        // 206. Reverse Linked List
+        // Input_206().executeInput()
+
+        // 445. Add Two Numbers II
+        Input_445().executeInput()
+        
     }
 }

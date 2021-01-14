@@ -37,6 +37,16 @@ extension SinglyLinkedListNode: Comparable where T: Comparable {
 
 extension SinglyLinkedListNode: CustomStringConvertible where T: CustomStringConvertible {
     public var description: String {
-        return self.val.description
+        var currNode: SinglyLinkedListNode<T>?
+        currNode = self
+        var representation = ""
+        while currNode != nil {
+            representation += "\(currNode!.val)"
+            if currNode!.next != nil {
+                representation += "-->"
+            }
+            currNode = currNode?.next
+        }
+        return representation
     }
 }
